@@ -4,6 +4,9 @@
   "private": true,
   "author": "dphaener <dphaener@gmail.com>",
   "description": "A simple helpful robot for your Company",
+  "scripts": {
+    "start": "./bin/hubot --adapter slack"
+  },
   "dependencies": {
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.2",
@@ -20,6 +23,6 @@
     "hubot-slack": "^4.4.0"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": "9.x"
   }
 }
