@@ -23,7 +23,9 @@
     "hubot-shipit": "^0.2.1",
     "hubot-slack": "^4.4.0",
     "hubot-tell": "*",
-    "hubot-wit": "^0.2.5"
+    "hubot-wit": "^0.2.5",
+    "lomath": "^0.3.0",
+    "mitsuku-api": "^0.2.1"
   },
   "engines": {
     "node": "9.x"
