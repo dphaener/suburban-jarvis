@@ -1,5 +1,6 @@
 [
   "hubot-diagnostics",
+  "hubot-has-no-idea",
   "hubot-help",
   "hubot-heroku-keepalive",
   "hubot-google-images",
