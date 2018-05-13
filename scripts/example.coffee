@@ -12,6 +12,10 @@ module.exports = (robot) ->
 
   robot.hear /hello/i, (res) ->
     res.send "Yes I am here you fucknut"
+  robot.hear /Darin's penis/i, (res) ->
+    res.send "That shriveled thing?  It fell off years ago."
+
+
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
