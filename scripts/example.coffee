@@ -14,6 +14,8 @@ module.exports = (robot) ->
     res.send "Yes I am here you fucknut"
   robot.hear /Darin's penis/i, (res) ->
     res.send "That shriveled thing?  It fell off years ago."
+  robot.hear /Damon's penis/i, (res) ->
+    res.send "That tremendous hog?  I hear he donated several feet of it to feed the homeless."
 
 
   # robot.hear /badger/i, (res) ->
