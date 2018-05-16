@@ -10,10 +10,12 @@
 
 module.exports = (robot) ->
 
+  darinPenisReplies = ['That shriveled thing?  It fell off years ago.', 'It's like a penis, only smaller.']
+
   robot.hear /hello/i, (res) ->
     res.send "Yes I am here you fucknut"
   robot.hear /Darin's penis/i, (res) ->
-    res.send "That shriveled thing?  It fell off years ago."
+    res.send res.random darinPenisReplies
   robot.hear /Damon's penis/i, (res) ->
     res.send "That tremendous hog?  I hear he donated several feet of it to feed the homeless."
   robot.hear /Trump/i, (res) ->
