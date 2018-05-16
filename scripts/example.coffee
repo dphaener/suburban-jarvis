@@ -10,7 +10,7 @@
 
 module.exports = (robot) ->
 
-  darinPenisReplies = ['That shriveled thing?  It fell off years ago.', 'It's like a penis, only smaller.']
+  darinPenisReplies = ['That shriveled thing?  It fell off years ago.', 'It is like a penis, only smaller.']
 
   robot.hear /hello/i, (res) ->
     res.send "Yes I am here you fucknut"
