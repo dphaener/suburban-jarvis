@@ -11,15 +11,17 @@
 module.exports = (robot) ->
 
   darinPenisReplies = ['That shriveled thing?  It fell off years ago.', 'It is like a penis, only smaller.']
+  damonPenisReplies = ['That tremendous hog?  I hear he donated several feet of it to feed the homeless.']
+  trumpReplies      = ['Fuck him.', 'I really think he''s gonna be a good President.', 'MAGA, bitches!']
 
   robot.hear /hello/i, (res) ->
     res.send "Yes I am here you fucknut"
   robot.hear /Darin's penis/i, (res) ->
     res.send res.random darinPenisReplies
   robot.hear /Damon's penis/i, (res) ->
-    res.send "That tremendous hog?  I hear he donated several feet of it to feed the homeless."
+    res.send res.random damonPenisReplies
   robot.hear /Trump/i, (res) ->
-    res.send "Fuck him."
+    res.send res.random trumpReplies
 
 
   # robot.hear /badger/i, (res) ->
