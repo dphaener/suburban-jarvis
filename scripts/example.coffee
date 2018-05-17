@@ -12,7 +12,7 @@ module.exports = (robot) ->
 
   darinPenisReplies = ['That shriveled thing?  It fell off years ago.', 'It is like a penis, only smaller.']
   damonPenisReplies = ['That tremendous hog?  I hear he donated several feet of it to feed the homeless.']
-  trumpReplies      = ['Fuck him.', 'I really think he''s gonna be a good President.', 'MAGA, bitches!']
+  trumpReplies      = ['Fuck him.', 'I really think he is gonna be a good President.', 'MAGA, bitches!']
 
   robot.hear /hello/i, (res) ->
     res.send "Yes I am here you fucknut"
