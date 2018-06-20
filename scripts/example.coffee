@@ -13,6 +13,12 @@ module.exports = (robot) ->
   darinPenisReplies = ['That shriveled thing?  It fell off years ago.', 'It is like a penis, only smaller.']
   damonPenisReplies = ['That tremendous hog?  I hear he donated several feet of it to feed the homeless.']
   trumpReplies      = ['Fuck him.', 'I really think he is gonna be a good President.', 'MAGA, bitches!']
+  fleshLightURLs    = [
+    'https://media.giphy.com/media/rwTzDv70uHMHe/giphy.gif',
+    'https://media.giphy.com/media/3o6nV2crhLncW5GNoI/giphy.gif',
+    'https://media.giphy.com/media/wRyiUAwWBeWHe/giphy.gif',
+    'https://media.giphy.com/media/tEBOJ68qebWIE/giphy.gif'
+  ]
 
   robot.hear /hello/i, (res) ->
     res.send "Yes I am here you fucknut"
@@ -22,7 +28,8 @@ module.exports = (robot) ->
     res.send res.random damonPenisReplies
   robot.hear /Trump/i, (res) ->
     res.send res.random trumpReplies
-
+  robot.hear /Fleshlight/i, (res) ->
+    res.send res.random fleshLightURLs
 
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
