@@ -31,6 +31,9 @@ module.exports = (robot) ->
   robot.hear /Fleshlight/i, (res) ->
     res.send res.random fleshLightURLs
 
+  robot.respond /howdy/i, (res) ->
+    res.send "Happy day!"
+
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
