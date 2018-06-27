@@ -20,8 +20,6 @@ module.exports = (robot) ->
     'https://media.giphy.com/media/tEBOJ68qebWIE/giphy.gif'
   ]
 
-  robot.hear /hello/i, (res) ->
-    res.send "Yes I am here you fucknut"
   robot.hear /Darin's penis/i, (res) ->
     res.send res.random darinPenisReplies
   robot.hear /Damon's penis/i, (res) ->
@@ -31,6 +29,8 @@ module.exports = (robot) ->
   robot.hear /Fleshlight/i, (res) ->
     res.send res.random fleshLightURLs
 
+  robot.respond /hello/i, (res) ->
+    res.send "Yes I am here you fucknut"
   robot.respond /howdy/i, (res) ->
     res.send "Happy day!"
 
