@@ -15,6 +15,7 @@
     "hubot-has-no-idea": "^1.2.0",
     "hubot-help": "^0.2.2",
     "hubot-heroku-keepalive": "^1.0.3",
+    "hubot-jokes": "^0.0.12",
     "hubot-maps": "0.0.3",
     "hubot-pugme": "^0.1.1",
     "hubot-redis-brain": "0.0.4",
